@@ -5,21 +5,21 @@ Version: 1
 #
 name: Power
 type: parsed
-protocol: NEC
-address: A0 00 00 00
-command: 5F 00 00 00
+protocol: RCA
+address: 07 00 00 00
+command: FF 00 00 00
 # 
 name: Mute
 type: parsed
-protocol: NEC
+protocol: RCA
 address: A0 00 00 00
-command: 1C 00 00 00
+command: FF 00 00 00
 # 
 name: Up
 type: parsed
-protocol: NEC
-address: A0 00 00 00
-command: 59 00 00 00
+protocol: RCA
+address: 08 00 00 00
+command: FF 00 00 00
 # 
 name: Down
 type: parsed
